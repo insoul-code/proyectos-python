@@ -63,13 +63,43 @@ else:
     print("Ingresa un mes valido")
 '''
 
-#bucle
+'''#bucle
 contador = 0
 
 while(contador<10):
     contador +=1
     print(contador)
 else:
-    print("Termino el ciclo")
+    print("Termino el ciclo")'''
+
+#menu de opciones
+import math
+
+menuOp = 0
+print
+while(menuOp != 5):
+    print('\nBienvenido al menú de opciones selecciona una opción: \n1.Encontrar multiplo de 2\n2.Encontrar la raíz cuadrada\n3.Sumar +100\n4.Elevar a la 2\n5.Salir') #Muestra las opciones
+    menuOp = int(input('Ingresa una opcion: ')) # Usuario ingresa opcion
+
+    if menuOp == 1:
+        numero=int(input('Digite un número entero: '))
+        if(numero %2 == 0):
+            print(f'El número {numero} es mulriplo de 2')
+        else:
+            print(f'El número {numero} no es multiplo de 2')
+    elif menuOp == 2:
+        numero = int(input('Ingresa un número para conocer la raíz: '))
+        print(f'La raíz cuadrada del {numero} es: {math.sqrt(numero)}')
+    elif menuOp == 3:
+        numero = int(input('Ingrese el número que quiera para sumarle 100: '))
+        print(f'El número {numero} sumado con 100 es: {numero+100}')
+    elif menuOp == 4:
+        numero = int(input('Ingrese un número para elevar a la 2: '))
+        print(f'La potencia del número {numero} es: {numero*numero}')
+    elif menuOp == 5:
+        print('Salio...')
+    else:
+        print('¡Ingrese una opcion valida!')
+
 
 
