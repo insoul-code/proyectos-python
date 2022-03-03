@@ -76,7 +76,7 @@ else:
 import math
 
 menuOp = 0
-print
+
 while(menuOp != 5):
     print('\nBienvenido al menú de opciones selecciona una opción: \n1.Encontrar multiplo de 2\n2.Encontrar la raíz cuadrada\n3.Sumar +100\n4.Elevar a la 2\n5.Salir') #Muestra las opciones
     menuOp = int(input('Ingresa una opcion: ')) # Usuario ingresa opcion
@@ -100,6 +100,7 @@ while(menuOp != 5):
         print('Salio...')
     else:
         print('¡Ingrese una opcion valida!')
+
 
 
 
