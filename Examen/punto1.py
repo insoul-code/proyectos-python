@@ -1,4 +1,7 @@
-#Pedir N números
+'''Construir un programa que permita ingresar N (cantidad digitada por el
+usuario) números enteros y cuente cuantos múltiplos de 2 y de 3 fueron
+ingresados'''
+
 conteo = 0
 cantidadNumeros = int(input('Ingrese la cantidad de números a procesar: '))
 conteoMultiplos2 = 0
