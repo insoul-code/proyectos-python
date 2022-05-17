@@ -1,7 +1,9 @@
 listaDeProductos=[]
 opcion=1
 while(opcion != 0):
-    print("Digite una acción del siguiente menú:")
+    print("\n")
+    print("******")
+    print("Digite una acción del siguiente menú: ")
     print("******")
     print("1. Agregar producto (código, nombre, precio)")
     print("2. Ver productos")
